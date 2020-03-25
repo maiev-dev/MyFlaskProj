@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='cssworld.ru-xcal.css') }}" />
+    <script type="text/javascript" src="{{ url_for('static', filename='cssworld.ru-xcal-en.js') }}"></script>
+    <script src="https://use.fontawesome.com/cee5bd93ff.js"></script>
+    <style>
+
+h1{
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+td{
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+
+/* demo styles */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  margin: 50px;
+}
+
+
+
+.made-with-love {
+  margin-top: 40px;
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-size: 10px;
+  font-family: arial;
+  color: #fff;
+}
+.made-with-love i {
+  font-style: normal;
+  color: #F50057;
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+}
+.made-with-love a {
+  color: #fff;
+  text-decoration: none;
+}
+.made-with-love a:hover {
+  text-decoration: underline;
+}
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+        {#.date{#}
+        {#    margin-left: 200px;#}
+        {#    width: 200px;#}
+        .input-date {
+            margin: 0;
+            float: left;
+        }
+        .p-date {
+            margin: 0;
+            float: left;
+        }
+        .form{
+            color: white;
+        }
+        select{
+            height: 25px;
+            border: 1px solid;
+            border-radius: 3px;
+            margin-left: 10px;
+            background-color: hsl(131, 70%, 78%);
+        }
+        input{
+            border: 1px solid;
+            border-radius: 3px;
+            background-color: hsl(131, 70%, 78%);
+            height: 21px;
+        }
+        button{
+            margin-left: 10px;
+            background-color: hsl(131, 70%, 78%);
+            border-radius: 3px;
+            border: 1px solid;
+            height: 25px;
+        }
+        .icon{
+            color: #dddddd;
+        }
+        *{margin: 0;
+  padding: 0;}
+ body{background-color: #ccc;}
+
+ nav{width: 100%;
+    height: 50px;
+
+  margin: 30px 100px;
+ position: relative;}
+ nav ul{list-style-type: none;
+       }
+ nav ul li{background-color: #024ce3;
+ 	       display: inline;
+           }
+nav ul li a{display: block;
+            float: left;
+            height: 50px;
+            width: 150px;
+        background-color: #f86d10;
+          line-height: 50px;
+          text-align: center;
+         color: white;
+          font-family: Arial;
+          text-decoration: none;
+         font-weight: 900;
+         transition:background 0.7s,color 0.7s,border 0.5s;
+         -webkit-transition:background 0.7s,color 0.7s,border 0.5s;
+         -o-transition:background 0.7s,color 0.7s,border 0.5s;
+         -ms-transition:background 0.7s,color 0.7s,border 0.5s;
+         -moz-transition:background 0.7s,color 0.7s,border 0.5s;
+         border-top:1px solid white;
+         border-bottom:1px solid white;
+
+
+
+      }
+nav ul li a:hover{background-color:#0c0c0c;
+	              color: #f86d10;
+	              border-top:1px solid #f86d10;
+         border-bottom:1px solid #f86d10;
+.active{background-color:#0c0c0c; }
+                  }
+.first{border-top-left-radius:5px;
+       border-bottom-left-radius:5px;
+       background-color: #f86d10;
+       border-bottom: 1px solid white;
+       border-left: 1px solid white;
+       border-top:1px solid white;
+       color: white;
+       transition: background linear 0.6s,color linear 0.5s,border-top linear 0.5s,border-left linear 0.5s;border-bottom linear 0.5s;
+       -webkit-transition: background linear 0.6s,color linear 0.5s,border-top linear 0.5s,border-left linear 0.5s;border-bottom linear 0.5s;
+       -moz-transition: background linear 0.6s,color linear 0.5s,border-top linear 0.5s,border-left linear 0.5s;border-bottom linear 0.5s;
+       -o-transition: background linear 0.6s,color linear 0.5s,border-top linear 0.5s,border-left linear 0.5s;border-bottom linear 0.5s;
+        }
+.first:hover{border-bottom: 1px solid #f86d10;
+       border-left: 1px solid #f86d10;
+       border-top:1px solid #f86d10;
+       background-color:#0c0c0c;
+       color: #f86d10;
+   }
+.last{border-top-right-radius:5px;
+       border-bottom-right-radius:5px;
+       background-color: #f86d10;
+       border-bottom: 1px solid white;
+       border-right: 1px solid white;
+       border-top:1px solid white;
+       color: white;
+       transition: background linear 0.5s,color linear 0.5s,border-top linear 0.5s,border-right linear 0.5s,border-bottom linear 0.5s;
+       -webkit-transition: background linear 0.5s,color linear 0.5s,border-top linear 0.5s,border-right linear 0.5s,border-bottom linear 0.5s;
+       -moz-transition: background linear 0.5s,color linear 0.5s,border-top linear 0.5s,border-right linear 0.5s,border-bottom linear 0.5s;
+       -o-transition: background linear 0.5s,color linear 0.5s,border-top linear 0.5s,border-right linear 0.5s,border-bottom linear 0.5s;
+       }
+.last:hover{border-bottom: 1px solid #f86d10;
+       border-right: 1px solid #f86d10;
+       border-top:1px solid #f86d10;
+       background-color:#0c0c0c;
+       color: #f86d10;
+   }
+    p{
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    </style>
+</head>
+<body>
+    <form action="/extended_search" method="POST" enctype="multipart/form-data">
+    <select name="subject" class = "select">
+        <option>Выберите предмет</option>
+        <option value="Math">Math</option>
+        <option value="IT">IT</option>
+        <option value="Graph">Graph</option>
+        </select>
+         <p class="date p-date">
+            <input autocomplete="off" onClick="xCal(this)" onKeyUp="xCal()" placeholder="Date" type = "text" name = "date" class="date input-date"></p>
+        <input placeholder="uploader name" name="uploader_name" type="text">
+        <p><input placeholder="tags" name="tags" type="text"></p>
+    <button type="submit" class="button">Filter</button>
+    </form>
+    {% if args['method'] == 'POST' %}
+    <table>
+    <tr> <td>id</td><td>subject</td><td>date</td><td>file_name</td> <td>uploader_nick</td><td>tags</td><td>Download</td> </tr>
+    {% for file in args["conspects"] %}
+        <tr> {% for arg in file %} <td>{{arg}}</td> </td>{% endfor %}  <td><a href="{{ url_for('download', filename=file[3]) }}"><span class="icon"><i class="fa fa-download" aria-hidden="true"></i></span></a></tr>
+    {% endfor %}
+</table>
+    {% endif %}
+
+</body>
+</html>

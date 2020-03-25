@@ -1,0 +1,6 @@
+chardet
+jinja2
+mock
+nose
+python-daemon
+python-modargs

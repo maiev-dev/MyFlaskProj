@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uploads</title>
+</head>
+<body>
+    {% if args["method"] == "POST" %}
+        {% if args["file_size_error"] %}
+            <h1>Размер файла превышает 1мб.!</h1>
+        {% else %}
+            <h1>Файл успешно загружен.</h1>
+        {% endif %}
+    {% endif %}
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <select name="subject">
+        <option>Выберите предмет</option>
+        <option value="Math">Math</option>
+        <option value="IT">IT</option>
+        <option value="Graph">Graph</option>
+      </select>
+        <p> <label for = "date">Date</label>
+            <input type = "text" name = "date" ></p>
+        <p><input placeholder="tags" name="tags" type="text"></p>
+        <input type="file" name="file">
+
+        <button type="submit">Загрузить</button>
+    </form>
+</body>
+</html>
